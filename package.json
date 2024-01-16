@@ -1,0 +1,16 @@
+{
+  "name": "svglogo",
+  "version": "1.0.0",
+  "description": "Building a node.js command-line application that takes user input to generate a logo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.7.0"
+  }
+}
