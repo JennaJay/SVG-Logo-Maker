@@ -31,8 +31,8 @@ const questions = [
 inquirer.prompt(questions)
     .then((answers) => {
         const {text, textColor, shape, shapeColor} = answers;
-        var shapeLog = new Circle(text, textColor, shapeColor) 
-        var svgLog = shapeLog.render()
+        let shapeLogo = new Circle(text, textColor, shapeColor) 
+        var svgLog = shapeLogo.render()
 
         fs.writeFile(path.join(__dirname, 'logo.svg'), svgLog, (err) =>
         err ? console.log(err) : console.log('Generated logo.svg...')
