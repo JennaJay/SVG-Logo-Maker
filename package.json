@@ -4,7 +4,7 @@
   "description": "Building a node.js command-line application that takes user input to generate a logo.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
